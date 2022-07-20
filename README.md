@@ -74,4 +74,4 @@ export default content
 </body>
 </html>
 ```
-3. 完事后执行```npm run dev```即可看到打开的html页面。手动更改```content.js```中的代码也能看到页面在无刷新的情况下进行了热更新。这样我们的第一步也就完成啦。
+3. 完事后执行```npm run dev```即可看到打开的html页面。手动更改```content.js```中的代码也能看到页面在无刷新的情况下进行了热更新。我们现在已经使用webpack-dev-server达到了热更新的效果。接下来我们就要自己逐步实现了。
